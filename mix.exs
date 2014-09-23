@@ -12,8 +12,10 @@ defmodule Fantastic.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: [:logger],
-     mod: {Fantastic, []}]
+    [
+      applications: [:logger],
+      mod: {Fantastic, [:logger, :cowboy, :plug, :postgrex, :ecto]}
+    ]
   end
 
   # Dependencies can be Hex packages:
@@ -26,6 +28,14 @@ defmodule Fantastic.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [
+      {:cowboy, "~> 1.0.0"},
+      {:plug,   "~> 0.7.0"},
+      {:postgrex, ">= 0.0.0"},
+      {:ecto, "~> 0.2.0"},
+      {:ecto_riak_adapter, git: "/Users/HashNuke/projects/ecto_riak_adapter", branch: "master"},
+      {:riak_pb, github: "HashNuke/riak_pb", branch: "plugin-fix-for-rebar-2.5.1", override: true},
+      {:exrm, "~> 0.14.9"}
+    ]
   end
 end
