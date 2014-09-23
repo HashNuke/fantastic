@@ -1,4 +1,5 @@
-%{"conform": {:package, "0.10.5"},
+%{"coffee_rotor": {:package, "0.2.1"},
+  "conform": {:package, "0.10.5"},
   "cowboy": {:package, "1.0.0"},
   "cowlib": {:package, "1.0.0"},
   "decimal": {:package, "0.2.5"},
@@ -13,4 +14,5 @@
   "protobuffs": {:git, "git://github.com/basho/erlang_protobuffs.git", "5257dfe4e000b58487af89b849c7336ffa9bae82", [tag: "0.8.1p4"]},
   "ranch": {:package, "1.0.0"},
   "riak_pb": {:git, "git://github.com/HashNuke/riak_pb.git", "cf2c1321521880719ae8ba8ba534cef173d8eba1", [branch: "plugin-fix-for-rebar-2.5.1"]},
-  "riakc": {:git, "git://github.com/basho/riak-erlang-client.git", "a1bd0541189c02c16b9b60f925247dad905bc42e", []}}
+  "riakc": {:git, "git://github.com/basho/riak-erlang-client.git", "a1bd0541189c02c16b9b60f925247dad905bc42e", []},
+  "rotor": {:package, "0.2.2"}}
