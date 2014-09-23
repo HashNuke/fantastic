@@ -3,7 +3,7 @@
   "cowlib": {:package, "1.0.0"},
   "decimal": {:package, "0.2.5"},
   "ecto": {:package, "0.2.5"},
-  "ecto_riak_adapter": {:git, "/Users/HashNuke/projects/ecto_riak_adapter", "b43505d4c5d4f2e89bcfbd71ead969984d41de1a", [branch: "master"]},
+  "ecto_riak_adapter": {:git, "/Users/HashNuke/projects/ecto_riak_adapter", "5c003d511531cd9fcfdb983c88db5225f52b9879", [branch: "master"]},
   "exrm": {:package, "0.14.9"},
   "meck": {:git, "git://github.com/basho/meck.git", "d4730c6d47e437b1dcd170551506e7b10596cd5a", [tag: "0.8.1p1"]},
   "plug": {:package, "0.7.0"},
